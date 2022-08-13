@@ -1,0 +1,22 @@
+void setup () {
+//Begin Setup Function
+//et Led Bulb +  For arduino Board 8 Digital Pin
+//Define Led +   Leg for arduino Board
+pinMode(8,OUTPUT);
+
+
+}
+void loop () {
+//Begin Loop Functio
+//arduino Board Digital Pin 8 High
+digitalWrite(8,HIGH);
+//Wait For Arduino Board........
+delay(2000);
+//Arduino Board Digital Pin 8 Low
+digitalWrite(8,LOW);
+
+
+
+
+
+}
